@@ -1,0 +1,13 @@
+{
+  "name": "raphael",
+  "description": "JavaScript Vector Library",
+  "version": "2.1.0",
+  "main": "raphael.js",
+  "scripts": [
+    "raphael-min.js",
+    "raphael-core.js"
+  ],
+  "keywords": ["raphael", "chart", "svg"],
+  "dependencies": {},
+  "development": {},
+}
