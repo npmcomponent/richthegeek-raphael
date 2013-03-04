@@ -8,6 +8,8 @@
     "raphael-min.js"
   ],
   "keywords": ["raphael", "chart", "svg"],
-  "dependencies": {},
+  "dependencies": {
+    "adobe-webplatform/eve": "*"
+  },
   "development": {}
 }
