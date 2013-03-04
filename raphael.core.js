@@ -6,6 +6,7 @@
 // │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
 // └─────────────────────────────────────────────────────────────────────┘ \\
 (function () {
+    eve = require('eve')
     /*\
      * Raphael
      [ method ]
@@ -5238,4 +5239,6 @@
     eve.on("raphael.DOMload", function () {
         loaded = true;
     });
+
+    module.exports = R
 })();

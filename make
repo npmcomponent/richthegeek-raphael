@@ -5,12 +5,11 @@ var ujs = require('uglify-js'),
 		core : 'raphael.core.js',
 		svg  : 'raphael.svg.js',
 		vml  : 'raphael.vml.js',
-		eve  : './eve/eve.js',
 		copy : 'copy.js'
 	},
 	output = {
-		'raphael-min.js'     : ['eve', 'core', 'svg', 'vml'],
-		'raphael.js'         : ['eve', 'core', 'svg', 'vml']
+		'raphael-min.js'     : ['core', 'svg', 'vml'],
+		'raphael.js'         : ['core', 'svg', 'vml']
 	};
 
 for (var file in input) {
