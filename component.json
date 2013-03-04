@@ -4,8 +4,8 @@
   "version": "2.1.0",
   "main": "raphael.js",
   "scripts": [
-    "raphael-min.js",
-    "raphael-core.js"
+    "raphael.js",
+    "raphael-min.js"
   ],
   "keywords": ["raphael", "chart", "svg"],
   "dependencies": {},
