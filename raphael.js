@@ -14,7 +14,7 @@
 // │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
 // └─────────────────────────────────────────────────────────────────────┘ \\
 (function () {
-    eve = require('eve')
+    eve = require('adobe-webplatform-eve')
     /*\
      * Raphael
      [ method ]

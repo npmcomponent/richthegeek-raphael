@@ -1,20 +1,14 @@
 {
-  "name": "raphael",
-  "version": "2.1.0",
+  "name": "richthegeek-raphael",
   "description": "JavaScript Vector Library",
+  "version": "2.1.0",
+  "keywords": [
+    "raphael",
+    "chart",
+    "svg"
+  ],
   "main": "raphael.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/DmitryBaranovskiy/raphael.git"
-  },
-  "author": "Dmitry Baranovskiy",
-  "license": "MIT",
-  "readmeFilename": "README.markdown",
-  "gitHead": "52bff469f60988f1391e8b3d7cb5349163df8ba1",
-  "devDependencies": {
-    "uglify-js": "~2.2.3"
+  "dependencies": {
+    "adobe-webplatform-eve": "git://github.com/npmcomponent/adobe-webplatform-eve.git"
   }
 }
